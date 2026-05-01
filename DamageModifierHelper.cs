@@ -24,14 +24,14 @@ namespace DamageModifiers
 		internal static void AdjustInflictedDamage(
 			Agent attackerAgent,
 			Agent victimAgent,
-			GameEntity hitObject,
+			WeakGameEntity hitObject,
 			ref AttackInformation attackInformation,
 			ref AttackCollisionData attackCollisionData)
 		{
 			try
 			{
 				// apply modifier
-				attackCollisionData.InflictedDamage = MathF.Round(attackCollisionData.InflictedDamage * GetDamageMultiplier(attackerAgent, victimAgent, hitObject != null, ref attackInformation, ref attackCollisionData));
+				attackCollisionData.InflictedDamage = TaleWorlds.Library.MathF.Round(attackCollisionData.InflictedDamage * GetDamageMultiplier(attackerAgent, victimAgent, hitObject != null, ref attackInformation, ref attackCollisionData));
 			}
 			catch (Exception exc)
 			{

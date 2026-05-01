@@ -28,7 +28,11 @@ obj/
 _ReSharper*/
 [Tt]est[Rr]esult*
 .vs/
+.dotnet
+.nuget
+.local
 #Nuget packages folder
 packages/
 /_Workshop/steam_workshop_uploader.txt
 /_Workshop/DamageModifiers.7z
+bin
