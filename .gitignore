@@ -36,3 +36,5 @@ packages/
 /_Workshop/steam_workshop_uploader.txt
 /_Workshop/DamageModifiers.7z
 bin
+_Module/bin
+Makefile
