@@ -5,5 +5,5 @@
     "title"             "Damage Modifiers Continued"
 	"contentfolder"		"/tmp/_Module"
 	"previewfile"		"/tmp/i.png"
-	"changenote"		"Init"
+	"changenote"		"Build for .NET 4.7.2 instead of 5.0"
 }
